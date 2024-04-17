@@ -1,0 +1,78 @@
+.banner {
+  text-align: center;
+  background-image: url(../../../img/SDSAC-7185-S24U-HP-LOB-FullBleed-DT-1440x810.avif);
+  width: 1440px;
+  height: 810px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.textt {
+  font-size: 18px;
+  line-height: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h11 {
+  font-size: 40px;
+}
+ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+li {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+li:hover {
+  width: auto;
+  height: 40px;
+  border-radius: 60px;
+  background-color: rgb(228, 234, 237);
+}
+.sam {
+  margin-top: 450px;
+  line-height: 2;
+}
+.ultra {
+  font-size: 60px;
+}
+.btn_buy {
+  color: white;
+  background-color: black;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.banner2 {
+  background-image: url(../../../img/Homepage_LOB_LifestyleWK_TheFrame_Desktop_1440x810.avif);
+  width: 1440px;
+  height: 810px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+.banner3 {
+  background-image: url(../../../img/LOB_Bespoke-AI.avif);
+  width: 1440px;
+  height: 810px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+.text3 {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 480px;
+  padding-top: 15px;
+}
+.banner4 {
+  background-image: url(../../../img/sustainability-1-dt.avif);
+  margin: 0 auto;
+  text-align: center;
+  width: 1440px;
+  height: 810px;
+}

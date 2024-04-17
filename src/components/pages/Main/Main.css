@@ -1,0 +1,106 @@
+.big__cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+.cart__text {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cart__text a {
+  text-decoration: none;
+  font-size: 1.25vw;
+  line-height: 1.66666667vw;
+  padding-top: 0.27777778vw;
+  padding-bottom: 0.27777778vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  line-height: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  flex-wrap: wrap;
+}
+a:hover {
+  border-bottom: 2px solid #000;
+}
+.carts {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.cart {
+  background-color: #f4f4f4;
+  height: 330px;
+  width: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+.card__h4 {
+  width: 310px;
+}
+.card__p {
+  color: rgb(0, 0, 255);
+}
+.new {
+  position: absolute;
+  height: 20px;
+  left: 20px;
+  top: 25px;
+  font-size: 12px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: rgb(82, 82, 230);
+  color: white;
+  text-align: center;
+}
+.cart .sci {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+}
+
+.cart .sci .btn {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.cart:hover .sci .btn {
+  transform: translateY(20px);
+  opacity: 1;
+}
+
+.container .card:hover .content {
+  transform: translateY(-10px);
+}
+.btn {
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #000;
+  color: white;
+}
